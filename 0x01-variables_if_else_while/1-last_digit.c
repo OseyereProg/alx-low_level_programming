@@ -8,22 +8,24 @@
  */
 int main(void)
 {
-   int n;
+int n;
+char last[] = "Last difit of ";
 
-   srand(time(0));
-   n = rand() - RAND_MAX / 2;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+printf("%s %d is %d and is ", last, n, n % 10);
 
-	if (n > 0)
+	if (n % 10 > 5)
 	{
-		printf("%d is positive\n", n);
+		printf("greater than 5\n");
 	}
-	else if (n == 0)
+	else if (n % 10 == 0)
 	{
-		printf("%d is zero\n", n);
+		printf("0\n");
 	}
 	else
 	{
-		printf("%d is negative\n", n);
-	}
+		printf("less than 6 and not 0\n");
+	}	
 	return (0);
 }
