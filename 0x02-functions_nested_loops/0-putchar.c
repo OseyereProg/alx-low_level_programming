@@ -1,29 +1,24 @@
-#include <stdlib.h>                                                                                                           
-#include <time.h>                                                                                                             
-#include <stdio.h>         
-#include <main.h>
-/*                                                                                                                             *
- * main - Prints if number is positive, zero or negative                                                                       *
- * Return: Always (Success) 
- *
- */              
+#include "main.h"
 
-int main(void)                                                                                                                  
+/**
+* _islower - a function that checks for lowercase
+* character
+* @c: single character input
+* Return: 1 if 0 if otherwise
+* check
+*/
 
-{                                                                                                                               
-	char c = "_putchar";                                                                                                                                                                   
-                                                                                                              
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	while (c)
-	{		
-
-	                                                                                                                       
-		putchar(c);
-		c++;
-
-	}                                                                                                                       
-
-        putchar('\n');
-
-	return (0);  
-}					
+	return (0);
+}
