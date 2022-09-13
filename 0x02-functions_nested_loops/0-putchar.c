@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
-* _islower - a function that checks for lowercase
-* character
-* @c: single character input
-* Return: 1 if 0 if otherwise
-* check
+* main - print putchar
+* Return: always 0
 */
 
 int main(void)
