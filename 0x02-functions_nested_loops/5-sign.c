@@ -22,7 +22,7 @@ int print_sign(int c)
 	}
 	else
 	{
-		_purchar('0');
+		_putchar('0');
 		return (0);
 	}
 }
